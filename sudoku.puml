@@ -1,0 +1,43 @@
+@startuml
+annotation java.lang.Override
+annotation java.lang.SuppressWarnings
+class java.awt.Color
+class java.awt.Font
+class java.awt.GridLayout
+class java.awt.event.ActionEvent
+class java.awt.event.KeyEvent
+class java.io.FileInputStream
+class java.io.IOException
+class java.util.ArrayList
+class javax.swing.BorderFactory
+class javax.swing.JButton
+class javax.swing.JFrame
+class javax.swing.JLabel
+class javax.swing.JOptionPane
+class javax.swing.Timer
+class javax.swing.plaf.ButtonUI
+class javax.swing.plaf.basic.BasicButtonUI
+class sudokub2012135.BoardGame
+interface java.awt.event.ActionListener
+interface java.awt.event.KeyListener
+sudokub2012135.BoardGame ..> java.lang.Override
+sudokub2012135.BoardGame ..> java.lang.SuppressWarnings
+sudokub2012135.BoardGame ..> java.awt.Color
+sudokub2012135.BoardGame ..> java.awt.Font
+sudokub2012135.BoardGame ..> java.awt.GridLayout
+sudokub2012135.BoardGame ..> java.awt.event.ActionEvent
+sudokub2012135.BoardGame ..> java.awt.event.KeyEvent
+sudokub2012135.BoardGame ..> java.io.FileInputStream
+sudokub2012135.BoardGame ..> java.io.IOException
+sudokub2012135.BoardGame ..> java.util.ArrayList
+sudokub2012135.BoardGame ..> javax.swing.BorderFactory
+sudokub2012135.BoardGame ..> javax.swing.JButton
+sudokub2012135.BoardGame --|> javax.swing.JFrame
+sudokub2012135.BoardGame ..> javax.swing.JLabel
+sudokub2012135.BoardGame ..> javax.swing.JOptionPane
+sudokub2012135.BoardGame ..> javax.swing.Timer
+sudokub2012135.BoardGame ..> javax.swing.plaf.ButtonUI
+sudokub2012135.BoardGame ..> javax.swing.plaf.basic.BasicButtonUI
+sudokub2012135.BoardGame --|> java.awt.event.ActionListener
+sudokub2012135.BoardGame --|> java.awt.event.KeyListener
+@enduml
